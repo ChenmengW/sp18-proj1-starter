@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ $# -eq 0 ] || [ $# -ne 3 ];
 then
 	echo 'Usage: ./diff.sh <dictionary file> <input file> <reference file>'
